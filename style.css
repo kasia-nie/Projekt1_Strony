@@ -101,7 +101,6 @@ div.transbox {
 /* Left and right column */
 .column.side {
   width: 25%;
-
 }
 
 /* Middle column */
@@ -189,4 +188,80 @@ div.content {
   padding: 10px;
   color: #f2f2f2;
   font-size: 21px;
+}
+
+/*gra*/
+.inline {
+	display: inline-block;
+	top: 0;
+	vertical-align: top;
+}
+
+#choose, #players, #resert_div {
+	width: 300px;
+	height: auto;
+	text-align: center;
+	border-radius: 10px;
+	padding: 20px 0;
+	margin: 7px 0;
+	background-color: #66cc92;
+}
+
+#one_player, #two_players, #reset {
+	padding: 5px;
+	background-color: #c6ecd6;
+	border-radius: 10px;
+}
+
+#play_with{
+	margin: 20px;
+	font-size: 20px;
+} 
+
+#you_choose {
+	margin: 20px;
+	font-size: 20px;
+	background-color: #c6ecd6;
+	border-radius: 10px;
+}
+
+table{
+	max-width: 500px;
+	max-height: 500px;
+	margin: 5px auto;
+}
+
+td
+{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	font-size: 50px;
+	background-color: #c6ecd6;
+	border-radius: 15px;
+}
+
+#helper
+{
+	display: none;
+}
+
+#statement
+{
+	max-width: 450px;
+	height: 150px;
+	text-align: center;
+	background-color: #66cc92;
+	border-radius: 10px;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 400px) {
+	.inline {
+		display: block;
+	}
+	
+	#choose, #players, #resert_div {
+		width: 100%;
+	}
 }
